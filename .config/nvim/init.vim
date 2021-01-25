@@ -6,4 +6,3 @@ source $HOME/.config/nvim/plug-config/coc.vim
 source $HOME/.config/nvim/vim-plug/plugs.vim
 source $HOME/.config/nvim/themes/autoformat.vim
 source $HOME/.config/nvim/themes/themes.vim
-"source $HOME/.config/nvim/cp.vim

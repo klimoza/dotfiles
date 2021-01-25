@@ -5,3 +5,4 @@
 .config/nautilus/
 .config/coc/
 .config/BraveSoftware
+.config/nvim/.netrwhist
