@@ -1,0 +1,19 @@
+{
+  "clangd.path": "/home/klimoza/.config/coc/extensions/coc-clangd-data/install/11.0.0/clangd_11.0.0/bin/clangd",
+  "clangd.semanticHighlighting": true,
+  "coc.preferences.formatOnSaveFiletypes": [
+    "clangd",
+    "css",
+    "markdown",
+    "javascript",
+    "graphql",
+    "html",
+    "yaml",
+    "json",
+    "python"
+  ],
+  "snippets.ultisnips.directories": [
+    "UltiSnips",
+    "~/.config/nvim/utils/snips"
+  ]
+}
