@@ -3,9 +3,7 @@ call plug#begin('~/.vim/plugged')
 
 Plug 'preservim/nerdtree'
 
-"Plug 'flazz/vim-colorschemes'
-"Plug 'xolox/vim-misc'
-"Plug 'xolox/vim-colorscheme-switcher'
+" Some schemes
 Plug 'dracula/vim', {'as':'dracula'}
 Plug 'kyoz/purify', { 'rtp': 'vim' }
 Plug 'morhetz/gruvbox'
@@ -14,8 +12,6 @@ Plug 'udalov/kotlin-vim'
 
 Plug 'vim-airline/vim-airline'
 "Plug 'vim-airline/vim-airline-themes'
-
-Plug 'rhysd/vim-clang-format'
 
 Plug 'sheerun/vim-polyglot'
 

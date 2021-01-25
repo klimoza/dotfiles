@@ -6,3 +6,5 @@
 .config/coc/
 .config/BraveSoftware
 .config/nvim/.netrwhist
+.config/pulse/
+.config/pavucontrol.ini

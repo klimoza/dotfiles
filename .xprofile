@@ -7,3 +7,8 @@ xset -dpms
 xset s noblank
 # Faster key repeat and delay
 xset r rate 150 45
+
+export EDITOR='nvim'
+export TERMINAL='alacritty'
+export BROWSER='brave'
+export MANPAGER='nvim +Man!'
