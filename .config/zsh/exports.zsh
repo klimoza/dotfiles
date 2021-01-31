@@ -1,5 +1,10 @@
 export ZSH=$HOME/.oh-my-zsh
 
+export EDITOR='nvim'
+export TERMINAL='alacritty'
+export BROWSER='firefox'
+export MANPAGER='nvim +Man!'
+
 plugins=(
         git
         vi-mode

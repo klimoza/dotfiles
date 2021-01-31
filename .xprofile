@@ -5,10 +5,9 @@ setxkbmap -option caps:escape
 xset s off
 xset -dpms
 xset s noblank
+
 # Faster key repeat and delay
 xset r rate 150 45
 
-export EDITOR='nvim'
-export TERMINAL='alacritty'
-export BROWSER='brave'
-export MANPAGER='nvim +Man!'
+# Layouts
+setxkbmap -layout 'us,ru' -option 'grp:alt_shift_toggle'

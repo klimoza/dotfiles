@@ -132,7 +132,7 @@ xmap <silent> <C-s> <Plug>(coc-range-select)
 command! -nargs=0 Format :call CocAction('format')
 
 " Autoformat
-autocmd BufWritePre,FileWritePre *.c,*.cpp :Format
+"autocmd BufWritePre,FileWritePre *.c,*.cpp :Format
 
 " Add `:Fold` command to fold current buffer.
 command! -nargs=? Fold :call     CocAction('fold', <f-args>)
