@@ -7,8 +7,8 @@ exec_always --no-startup-id autotiling
 # #---Basic Definitions---# #
 #smart_gaps on
 #smart_borders on
-set $inner_gaps 15
-set $outer_gaps 12
+set $inner_gaps 10
+set $outer_gaps 4
 set $term --no-startup-id alacritty
 set $mod Mod4
 set $alt Mod1
