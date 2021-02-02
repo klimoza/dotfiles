@@ -9,5 +9,11 @@ xset s noblank
 # Faster key repeat and delay
 xset r rate 150 45
 
-# Layouts
+# Keyboard Layouts
 setxkbmap -layout 'us,ru' -option 'grp:alt_shift_toggle'
+
+# Hide Cursor when typing
+xbanish &
+
+# Wallpaper
+feh --bg-fill --randomize $HOME/wallpapers/gruvbox_wallpapers/ &

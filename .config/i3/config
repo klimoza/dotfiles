@@ -5,7 +5,7 @@ exec_always --no-startup-id nm-applet
 exec_always --no-startup-id autotiling
 
 # #---Basic Definitions---# #
-smart_gaps on
+#smart_gaps on
 smart_borders on
 set $inner_gaps 15
 set $outer_gaps 12
@@ -51,7 +51,9 @@ bindsym $mod+Shift+y		        exec --no-startup-id flameshot full -p ~/Pictures/
 bindsym $mod+f			            fullscreen toggle
 bindsym $mod+Shift+f 	            floating toggle
 
-bindsym $mod+b			            exec --no-startup-id feh --bg-fill --randomize ~/Pics/wallpapers/*
+bindsym $mod+b			            exec --no-startup-id feh --bg-fill --randomize ~/wallpapers/gruvbox_wallpapers/*
+bindsym $mod+Shift+b                exec --no-startup-id wal -i $HOME/wallpapers/pywall_wallpapers
+
 
 bindsym $mod+g		                gaps inner current set $inner_gaps; gaps outer current set $outer_gaps
 bindsym $mod+Shift+g		        gaps inner current set 0; gaps outer current set 0

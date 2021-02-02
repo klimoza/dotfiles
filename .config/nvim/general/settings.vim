@@ -4,6 +4,7 @@ set nocompatible
 set clipboard^=unnamedplus,unnamed
 
 " Support 256 colors
+set termguicolors
 set t_Co=256
 set encoding=UTF-8
 

@@ -7,11 +7,11 @@ Plug 'preservim/nerdtree'
 Plug 'dracula/vim', {'as':'dracula'}
 Plug 'kyoz/purify', { 'rtp': 'vim' }
 Plug 'morhetz/gruvbox'
+Plug 'dylanaraps/wal.vim'
 
 Plug 'udalov/kotlin-vim'
 
 Plug 'vim-airline/vim-airline'
-"Plug 'vim-airline/vim-airline-themes'
 
 Plug 'sheerun/vim-polyglot'
 
@@ -22,5 +22,7 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'jackguo380/vim-lsp-cxx-highlight'
 
 Plug 'kevinoid/vim-jsonc'
+
+Plug 'norcalli/nvim-colorizer.lua'
 
 call plug#end()
