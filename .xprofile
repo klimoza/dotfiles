@@ -12,6 +12,9 @@ xset r rate 150 45
 # Keyboard Layouts
 setxkbmap -layout 'us,ru' -option 'grp:alt_shift_toggle'
 
+# Start compositor
+picom -b --experimental-backends &
+
 # Hide Cursor when typing
 xbanish &
 
