@@ -1,11 +1,6 @@
 # vim: filetype=i3config
 
-bar {
-    position top
-    status_command i3status
-}
-
-#exec_always --no-startup-id $HOME/.config/polybar/launch.sh
+exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 exec_always --no-startup-id nm-applet
 exec_always --no-startup-id autotiling
 
@@ -75,10 +70,10 @@ bindsym $mod+l			            focus right
 bindsym $mod+Shift+l		        move right 30
 
 # #---Workspace Bindings---# #
-#bindsym $alt+Tab                    workspace next
-#bindsym $alt+Shift+Tab		        workspace prev
-bindsym $alt+Tab                    exec i3-alt-tab --next
-bindsym $alt+Shift+Tab              exec i3-alt-tab --prev
+bindsym $alt+Tab                    workspace next
+bindsym $alt+Shift+Tab		        workspace prev
+#bindsym $alt+Tab                    exec i3-alt-tab --next
+#bindsym $alt+Shift+Tab              exec i3-alt-tab --prev
 bindsym $mod+Tab                    workspace next
 bindsym $mod+Shift+Tab		        workspace prev
 bindsym $mod+apostrophe		        split horizontal ;; exec $term
