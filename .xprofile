@@ -19,4 +19,4 @@ picom -b --experimental-backends &
 xbanish &
 
 # Wallpaper
-feh --bg-fill --randomize $HOME/wallpapers/gruvbox_wallpapers/ &
+feh --bg-fill --randomize $HOME/wallpapers/* &

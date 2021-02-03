@@ -51,8 +51,7 @@ bindsym $mod+Shift+y		        exec --no-startup-id flameshot full -p ~/Pictures/
 bindsym $mod+f			            fullscreen toggle
 bindsym $mod+Shift+f 	            floating toggle
 
-bindsym $mod+b			            exec --no-startup-id feh --bg-fill --randomize ~/wallpapers/gruvbox_wallpapers/*
-bindsym $mod+Shift+b                exec --no-startup-id wal -i $HOME/wallpapers/pywall_wallpapers
+bindsym $mod+b			            exec --no-startup-id feh --bg-fill --randomize ~/wallpapers/*
 
 
 bindsym $mod+g		                gaps inner current set $inner_gaps; gaps outer current set $outer_gaps

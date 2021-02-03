@@ -9,8 +9,6 @@ let g:airline_theme='gruvbox'
 "colorscheme dracula
 "let g:airline_theme='dracula'
 
-"colorscheme wal
-
 " Terminal bg
 hi! Normal ctermbg=NONE guibg=NONE
 hi! NonText ctermbg=NONE guibg=NONE guifg=NONE ctermfg=NONE

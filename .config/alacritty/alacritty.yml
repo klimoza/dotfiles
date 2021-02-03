@@ -1,7 +1,7 @@
 import:
   - ~/.config/alacritty/gruvbox.yml
 
-background_opacity: 1
+background_opacity: 0.9
 
 font:
   normal:
@@ -38,6 +38,7 @@ live_config_reload: true
 
 key_bindings:
   - { key: N, mods: Control, action: SpawnNewInstance }
+  # If there's no i3
   - { key: F11, command: { program: "/bin/sh", args: ["-c", "wmctrl -ir $(xdotool getwindowfocus) -b toggle,fullscreen" ] } }
   # (Windows, Linux, and BSD only)
   - { key: P,        mods: Control,       action: Paste            }

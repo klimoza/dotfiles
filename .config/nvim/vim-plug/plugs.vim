@@ -7,7 +7,6 @@ Plug 'preservim/nerdtree'
 Plug 'dracula/vim', {'as':'dracula'}
 Plug 'kyoz/purify', { 'rtp': 'vim' }
 Plug 'morhetz/gruvbox'
-Plug 'dylanaraps/wal.vim'
 
 Plug 'udalov/kotlin-vim'
 
