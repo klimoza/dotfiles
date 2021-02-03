@@ -15,6 +15,9 @@ setxkbmap -layout 'us,ru' -option 'grp:alt_shift_toggle'
 # Start compositor
 picom -b --experimental-backends &
 
+# Open flameshot on startup
+flameshot &
+
 # Hide Cursor when typing
 xbanish &
 
