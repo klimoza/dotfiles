@@ -5,8 +5,8 @@ exec_always --no-startup-id nm-applet
 exec_always --no-startup-id autotiling
 
 # #---Basic Definitions---# #
-#smart_gaps on
-#smart_borders on
+smart_gaps on
+smart_borders on
 set $inner_gaps 10
 set $outer_gaps 4
 set $term --no-startup-id alacritty
@@ -21,7 +21,7 @@ set $hibernate sudo -A systemctl hibernate
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
-#focus_follows_mouse no
+focus_follows_mouse no
 
 # #---Gaps---# #
 for_window [class="^.*"] border pixel 2
@@ -51,7 +51,7 @@ bindsym $mod+Shift+y		        exec --no-startup-id flameshot full -p ~/Pictures/
 bindsym $mod+f			            fullscreen toggle
 bindsym $mod+Shift+f 	            floating toggle
 
-bindsym $mod+b			            exec --no-startup-id feh --bg-fill --randomize ~/wallpapers/*
+bindsym $mod+b			            exec --no-startup-id feh --bg-fill --randomize ~/wallpapers/desktop/*
 
 bindsym $mod+g		                gaps inner current set $inner_gaps; gaps outer current set $outer_gaps
 bindsym $mod+Shift+g		        gaps inner current set 0; gaps outer current set 0
