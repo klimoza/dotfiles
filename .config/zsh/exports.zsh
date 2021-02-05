@@ -12,8 +12,9 @@ plugins=(
 
 source $ZSH/oh-my-zsh.sh
 
-
 export EDITOR='nvim'
 export TERMINAL='alacritty'
 export BROWSER='firefox'
 export MANPAGER='nvim +Man!'
+
+export PATH="$HOME/.scripts:$PATH"
