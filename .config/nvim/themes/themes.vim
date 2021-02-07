@@ -1,17 +1,15 @@
 let g:airline#extensions#tabline#enabled = 1
 
-colorscheme gruvbox
-let g:airline_theme='gruvbox'
-
-"colorscheme purify
-"let g:airline_theme='purify'
-
-"colorscheme dracula
-"let g:airline_theme='dracula'
+colorscheme dracula
+let g:airline_theme='dracula'
 
 " Terminal bg
 hi! Normal ctermbg=NONE guibg=NONE
 hi! NonText ctermbg=NONE guibg=NONE guifg=NONE ctermfg=NONE
+hi Normal guibg=NONE ctermbg=NONE
+hi LineNr guibg=NONE ctermbg=NONE
+hi SignColumn guibg=NONE ctermbg=NONE
+hi EndOfBuffer guibg=NONE ctermbg=NONE
 
 set cursorline
 

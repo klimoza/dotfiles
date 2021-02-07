@@ -7,7 +7,7 @@ exec_always --no-startup-id autotiling
 # #---Basic Definitions---# #
 smart_gaps on
 smart_borders on
-set $inner_gaps 10
+set $inner_gaps 15
 set $outer_gaps 4
 set $term --no-startup-id alacritty
 set $mod Mod4
@@ -41,7 +41,9 @@ bindsym $mod+w 			            exec --no-startup-id firefox
 bindsym $mod+r 			            exec $term -e ranger
 
 bindsym $mod+space                  exec --no-startup-id i3-dmenu-desktop --dmenu='dmenu -b -i'
-bindsym $mod+d 			            exec --no-startup-id rofi -show run
+# bindsym $mod+d 			            exec --no-startup-id rofi -show run
+
+bindsym $mod+d                      exec --no-startup-id rofi -no-lazy-grab -show drun -modi drun -theme ~/.config/rofi/custom.rasi
 
 bindsym $mod+q			            [con_id="__focused__" instance="^(?!dropdown_).*$"] kill
 
@@ -51,7 +53,7 @@ bindsym $mod+Shift+y		        exec --no-startup-id flameshot full -p ~/Pictures/
 bindsym $mod+f			            fullscreen toggle
 bindsym $mod+Shift+f 	            floating toggle
 
-bindsym $mod+b			            exec --no-startup-id feh --bg-fill --randomize ~/wallpapers/desktop/*
+bindsym $mod+b			            exec --no-startup-id feh --bg-fill --randomize ~/wallpapers/*
 
 bindsym $mod+g		                gaps inner current set $inner_gaps; gaps outer current set $outer_gaps
 bindsym $mod+Shift+g		        gaps inner current set 0; gaps outer current set 0

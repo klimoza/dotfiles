@@ -50,7 +50,3 @@ set mouse=a
 
 " Makes indenting smart
 set smartindent
-
-" Spell checker
-set spelllang=en_us,ru_ru
-set spell
