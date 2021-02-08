@@ -51,3 +51,6 @@ set mouse=a
 
 " Makes indenting smart
 set smartindent
+
+" Buffers stuff
+set hidden

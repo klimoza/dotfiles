@@ -3,23 +3,18 @@ call plug#begin('~/.vim/plugged')
 
 Plug 'preservim/nerdtree'
 
-" Some schemes
 Plug 'dracula/vim', {'as':'dracula'}
 Plug 'morhetz/gruvbox'
-Plug 'mhartington/oceanic-next'
-
-Plug 'udalov/kotlin-vim'
 
 Plug 'vim-airline/vim-airline'
-
-Plug 'sheerun/vim-polyglot'
-
 Plug 'ryanoasis/vim-devicons'
+Plug 'norcalli/nvim-colorizer.lua'
 
+Plug 'udalov/kotlin-vim'
+Plug 'sheerun/vim-polyglot'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
-
 Plug 'kevinoid/vim-jsonc'
 
-Plug 'norcalli/nvim-colorizer.lua'
+Plug 'sbdchd/neoformat'
 
 call plug#end()

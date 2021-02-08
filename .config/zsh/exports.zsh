@@ -18,3 +18,4 @@ export BROWSER='firefox'
 export MANPAGER='nvim +Man!'
 
 export PATH="$HOME/.scripts:$PATH"
+export MANPATH="$(manpath -g):$HOME/.cache/cppman"
