@@ -5,7 +5,6 @@ Plug 'preservim/nerdtree'
 
 " Some schemes
 Plug 'dracula/vim', {'as':'dracula'}
-Plug 'kyoz/purify', { 'rtp': 'vim' }
 Plug 'morhetz/gruvbox'
 Plug 'mhartington/oceanic-next'
 
@@ -18,8 +17,6 @@ Plug 'sheerun/vim-polyglot'
 Plug 'ryanoasis/vim-devicons'
 
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
-
-Plug 'jackguo380/vim-lsp-cxx-highlight'
 
 Plug 'kevinoid/vim-jsonc'
 

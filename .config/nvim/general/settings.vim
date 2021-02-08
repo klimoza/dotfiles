@@ -6,6 +6,7 @@ set clipboard^=unnamedplus,unnamed
 " Support 256 colors
 set termguicolors
 set t_Co=256
+
 set encoding=UTF-8
 
 " Replace tabs with spaces(4 spaces for each tab)
@@ -42,7 +43,7 @@ set listchars=tab:»·
 
 set endofline
 
-" Splits open at the bottom and right, which is non-retarded, unlike vim defaults
+" Splits open at the bottom and right
 set splitbelow splitright
 
 " Enable mouse
