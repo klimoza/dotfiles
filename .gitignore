@@ -12,3 +12,5 @@
 .config/Kitware/
 .config/QtProject.conf
 .config/GIMP/
+.config/JetBrains/
+.config/Slack/

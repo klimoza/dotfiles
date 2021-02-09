@@ -22,4 +22,4 @@ flameshot &
 xbanish &
 
 # Wallpaper
-feh --bg-fill $HOME/wallpapers/sylvanas.jpg &
+feh --bg-fill --randomize $HOME/wallpapers/desktop/* &
