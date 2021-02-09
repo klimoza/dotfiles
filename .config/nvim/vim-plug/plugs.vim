@@ -14,6 +14,7 @@ Plug 'udalov/kotlin-vim'
 Plug 'sheerun/vim-polyglot'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'kevinoid/vim-jsonc'
+Plug 'lervag/vimtex'
 
 Plug 'sbdchd/neoformat'
 
