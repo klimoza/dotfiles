@@ -18,6 +18,8 @@ export EDITOR='nvim'
 export TERMINAL='alacritty'
 export BROWSER='firefox'
 export MANPAGER='nvim +Man!'
+export READER='evince'
+export OPENER='xdg-open'
 
 export PATH="$HOME/.scripts:$PATH"
 export MANPATH="$(manpath -g):$HOME/.cache/cppman"

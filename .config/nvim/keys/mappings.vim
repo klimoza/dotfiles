@@ -5,8 +5,6 @@
 :map <leader>y magg<S-v><S-g>y`a
 :map <leader>p gg<S-v><S-g>p:w<CR>
 
-:map <F7> :edit<CR>
-
 " Shortcutting split navigation, saving a keypress:
 map <C-h> <C-w>h
 map <C-j> <C-w>j

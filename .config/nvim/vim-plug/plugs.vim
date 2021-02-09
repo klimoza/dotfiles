@@ -17,5 +17,6 @@ Plug 'kevinoid/vim-jsonc'
 Plug 'lervag/vimtex'
 
 Plug 'sbdchd/neoformat'
+Plug 'honza/vim-snippets'
 
 call plug#end()
