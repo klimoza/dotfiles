@@ -47,7 +47,7 @@ bindsym $mod+space                      exec --no-startup-id rofi -no-lazy-grab 
 
 bindsym $mod+q			            [con_id="__focused__" instance="^(?!dropdown_).*$"] kill
 
-bindsym $mod+y			            exec --no-startup-id flameshot gui -p ~/Pictures/screenshots
+bindsym $mod+Shift+s			        exec --no-startup-id flameshot gui -p ~/Pictures/screenshots
 bindsym $mod+Shift+y		        exec --no-startup-id flameshot full -p ~/Pictures/screenshots
 
 bindsym $mod+f			            fullscreen toggle
@@ -61,15 +61,19 @@ bindsym $mod+Shift+g		        gaps inner current set 0; gaps outer current set 0
 # #---Moving Bindings---# #
 bindsym $mod+h			            focus left
 bindsym $mod+Shift+h		        move left 30
+bindsym $mod+Ctrl+h		          move workspace to output left
 
 bindsym $mod+j			            focus down
 bindsym $mod+Shift+j		        move down 30
+bindsym $mod+Ctrl+j		          move workspace to output down
 
 bindsym $mod+k			            focus up
 bindsym $mod+Shift+k		        move up 30
+bindsym $mod+Ctrl+k		          move workspace to output up
 
 bindsym $mod+l			            focus right
 bindsym $mod+Shift+l		        move right 30
+bindsym $mod+Ctrl+l		          move workspace to output right
 
 # #---Workspace Bindings---# #
 bindsym $mod+Tab                    workspace back_and_forth

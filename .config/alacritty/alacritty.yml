@@ -2,10 +2,10 @@ import:
   - ~/.config/alacritty/dracula.yml
   - ~/.config/alacritty/JetBrainsMono.yml
 
-background_opacity: 1
+background_opacity: 0.95
 
 font:
-  size: 7.5
+  size: 13
   offset:
     x: 0
     y: 0

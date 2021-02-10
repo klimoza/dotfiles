@@ -19,4 +19,6 @@ Plug 'lervag/vimtex'
 Plug 'sbdchd/neoformat'
 Plug 'honza/vim-snippets'
 
+Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
+
 call plug#end()
