@@ -134,15 +134,19 @@ bindsym $mod+F1	    restart
 # #---Arrow Keys---# #
 bindsym $mod+Left		        focus left
 bindsym $mod+Shift+Left         resize shrink width 20 px or 3 ppt
+bindsym $mod+Ctrl+Left		          move workspace to output left
 
 bindsym $mod+Down		        focus down
 bindsym $mod+Shift+Down         resize grow height 20 px or 3 ppt
+bindsym $mod+Ctrl+Down		          move workspace to output down
 
 bindsym $mod+Up			        focus up
 bindsym $mod+Shift+Up           resize shrink height 20 px or 3 ppt
+bindsym $mod+Ctrl+Up		          move workspace to output up
 
 bindsym $mod+Right 		        focus right
 bindsym $mod+Shift+Right        resize grow width 20 px or 3 ppt
+bindsym $mod+Ctrl+Right		          move workspace to output right
 
 # Pulse Audio controls
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +10% #increase sound volume

@@ -6,4 +6,4 @@ autocmd BufWritePre * %s/\n\+\%$//e
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 
 
-autocmd BufWritePre * Neoformat
+autocmd BufWritePre,FileWritePre *.cpp Neoformat

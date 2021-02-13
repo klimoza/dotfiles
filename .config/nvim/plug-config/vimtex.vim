@@ -5,8 +5,6 @@ let g:vimtex_quickfix_mode=0
 "set conceallevel=1
 "let g:tex_conceal='abdmg'
 
-let g:vimtex_view_general_options
-    \ = '-reuse-instance -forward-search @tex @line @pdf'
-let g:vimtex_view_general_options_latexmk = '-reuse-instance'
+let g:vimtex_matchparen_enabled=0
 
 map <buffer> K <Plug>(vimtex-doc-package)
