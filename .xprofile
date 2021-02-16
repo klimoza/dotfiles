@@ -24,4 +24,4 @@ xbanish &
 nitrogen --restore
 
 # Wallpaper
-#feh --bg-fill $HOME/wallpapers/desktop/sylvanas.jpg &
+#feh --bg-fill $HOME/wallpapers/sylvanas.jpg &

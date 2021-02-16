@@ -21,4 +21,10 @@ Plug 'honza/vim-snippets'
 
 Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
 
+Plug 'junegunn/fzf', { 'do' : { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
+Plug 'airblade/vim-rooter'
+
+Plug 'mhinz/vim-startify'
+
 call plug#end()

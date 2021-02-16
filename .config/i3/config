@@ -53,7 +53,7 @@ bindsym $mod+Shift+y		        exec --no-startup-id flameshot full -p ~/Pictures/
 bindsym $mod+f			            fullscreen toggle
 bindsym $mod+Shift+f 	            floating toggle
 
-bindsym $mod+b			            exec --no-startup-id feh --bg-fill --randomize ~/wallpapers/desktop/*
+bindsym $mod+b			            exec --no-startup-id feh --bg-fill --randomize ~/wallpapers/*
 
 bindsym $mod+g		                gaps inner current set $inner_gaps; gaps outer current set $outer_gaps
 bindsym $mod+Shift+g		        gaps inner current set 0; gaps outer current set 0

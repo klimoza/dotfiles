@@ -5,5 +5,4 @@ autocmd BufWritePre * %s/\n\+\%$//e
 " Disable so bad autoformatting
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 
-
-autocmd BufWritePre,FileWritePre *.cpp Neoformat
+autocmd BufWritePre,FileWritePre *.cpp,*.c Neoformat

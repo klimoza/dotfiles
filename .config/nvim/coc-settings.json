@@ -12,6 +12,5 @@
   "snippets.ultisnips.directories": [
     "UltiSnips",
     "~/.config/nvim/utils/snips"
-  ],
-  "clangd.fallbackFlags": ["-std=c++17"]
+  ]
 }
