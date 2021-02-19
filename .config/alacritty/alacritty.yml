@@ -1,8 +1,8 @@
 import:
-  - ~/.config/alacritty/dracula.yml
+  - ~/.config/alacritty/gruvbox.yml
   - ~/.config/alacritty/JetBrainsMono.yml
 
-background_opacity: 0.95
+background_opacity: 0.9
 
 font:
   size: 7.5

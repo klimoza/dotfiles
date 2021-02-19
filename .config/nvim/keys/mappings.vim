@@ -21,12 +21,12 @@ nnoremap <silent> <C-Down>  :resize +2<CR>
 nnoremap <silent> <C-Left>  :vertical resize -2<CR>
 nnoremap <silent> <C-Right> :vertical resize +2<CR>
 
-function! s:JbzCppMan()
-    let old_isk = &iskeyword
-    setl iskeyword+=:
-    let str = expand("<cword>")
-    let &l:iskeyword = old_isk
-    execute 'Man ' . str
-endfunction
-command! JbzCppMan :call s:JbzCppMan()
-au FileType cpp,h nnoremap <buffer>K :JbzCppMan<CR>
+"function! s:JbzCppMan()
+"    let old_isk = &iskeyword
+"    setl iskeyword+=:
+"    let str = expand("<cword>")
+"    let &l:iskeyword = old_isk
+"    execute 'Man ' . str
+"endfunction
+"command! JbzCppMan :call s:JbzCppMan()
+"au FileType cpp,h nnoremap <buffer>K :JbzCppMan<CR>

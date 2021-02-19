@@ -12,5 +12,7 @@
   "snippets.ultisnips.directories": [
     "UltiSnips",
     "~/.config/nvim/utils/snips"
-  ]
+  ],
+  "explorer.icon.enableVimDevicons": true,
+  "suggest.maxCompleteItemCount": 10
 }

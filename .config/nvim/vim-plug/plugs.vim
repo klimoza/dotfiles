@@ -1,30 +1,23 @@
 set nocompatible
 call plug#begin('~/.vim/plugged')
 
-Plug 'preservim/nerdtree'
-
 Plug 'dracula/vim', {'as':'dracula'}
 Plug 'morhetz/gruvbox'
-
 Plug 'vim-airline/vim-airline'
 Plug 'ryanoasis/vim-devicons'
-Plug 'norcalli/nvim-colorizer.lua'
 
 Plug 'udalov/kotlin-vim'
 Plug 'sheerun/vim-polyglot'
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'kevinoid/vim-jsonc'
-Plug 'lervag/vimtex'
 
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'lervag/vimtex'
 Plug 'sbdchd/neoformat'
 Plug 'honza/vim-snippets'
+Plug 'tpope/vim-surround'
 
 Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
-
-Plug 'junegunn/fzf', { 'do' : { -> fzf#install() } }
-Plug 'junegunn/fzf.vim'
-Plug 'airblade/vim-rooter'
-
+Plug 'norcalli/nvim-colorizer.lua'
 Plug 'mhinz/vim-startify'
 
 call plug#end()
