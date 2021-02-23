@@ -21,3 +21,6 @@ export OPENER='xdg-open'
 
 export PATH="$HOME/.scripts:$PATH"
 export MANPATH="$(manpath -g):$HOME/.cache/cppman"
+
+export GEM_HOME="$(ruby -e 'puts Gem.user_dir')"
+export PATH="$PATH:$GEM_HOME/bin"

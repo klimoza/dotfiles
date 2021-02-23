@@ -90,7 +90,7 @@ ColumnLimit:     80
 #IndentGotoLabels: true
 #IndentPPDirectives: None
 #IndentExternBlock: AfterExternBlock
-IndentWidth:     4
+IndentWidth:     2
 #IndentWrappedFunctionNames: false
 #InsertTrailingCommas: None
 #JavaScriptQuotes: Leave

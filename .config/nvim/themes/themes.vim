@@ -15,7 +15,6 @@ set cursorline
 autocmd VimEnter * silent exec "! echo -ne '\e[1 q'"
 autocmd VimLeave * silent exec "! echo -ne '\e[5 q'"
 
-set colorcolumn=80
-
-highlight OverLength ctermbg=red ctermfg=red guibg=#592929
-match OverLength /\%81v.\+/
+"set colorcolumn=80
+"highlight OverLength ctermbg=red ctermfg=red guibg=#592929
+"match OverLength /\%81v.\+/

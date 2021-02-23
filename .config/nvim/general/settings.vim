@@ -50,6 +50,7 @@ set splitbelow splitright
 set mouse=a
 
 " Makes indenting smart
+filetype indent on
 set smartindent
 
 " Buffers stuff

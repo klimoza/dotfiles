@@ -5,4 +5,6 @@ autocmd BufWritePre * %s/\n\+\%$//e
 " Disable so bad autoformatting
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 
-autocmd BufWritePre,FileWritePre *.cpp,*.c,*.tex Neoformat
+"autocmd BufWritePre,FileWritePre *.cpp,*.c,*.tex Neoformat
+
+au FileType tex setlocal indentkeys=
