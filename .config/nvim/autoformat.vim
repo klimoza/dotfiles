@@ -8,3 +8,5 @@ autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 "autocmd BufWritePre,FileWritePre *.cpp,*.c,*.tex Neoformat
 
 au FileType tex setlocal indentkeys=
+
+:map <leader>q :Neoformat<CR>

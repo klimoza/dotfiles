@@ -21,6 +21,8 @@ flameshot &
 # Hide Cursor when typing
 xbanish &
 
+gnome-screensaver &
+
 nitrogen --restore
 
 # Wallpaper

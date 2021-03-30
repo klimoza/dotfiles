@@ -1,5 +1,6 @@
 ---
 # BasedOnStyle:  Microsoft/Google
+BasedOnStyle: Google
 AccessModifierOffset: -1
 AlignAfterOpenBracket: Align
 AlignConsecutiveMacros: false

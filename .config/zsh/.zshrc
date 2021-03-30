@@ -11,6 +11,3 @@ source $HOME/.config/zsh/completion.zsh
 source $HOME/.config/zsh/exports.zsh
 source $HOME/.config/zsh/aliases.zsh
 source $HOME/.config/zsh/vimode.zsh
-
-source /usr/share/fzf/completion.zsh
-source /usr/share/fzf/key-bindings.zsh

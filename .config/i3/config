@@ -14,7 +14,7 @@ set $mod Mod4
 set $alt Mod1
 set $shutdown sudo -A shutdown -h now
 set $reboot sudo -A reboot
-set $lock betterlockscreen --lock
+set $lock gnome-screensaver-command --lock
 set $suspend sudo systemctl suspend
 set $hibernate sudo -A systemctl hibernate
 
@@ -38,6 +38,7 @@ bindsym $mod+Shift+c		        exec --no-startup-id $suspend
 bindsym $mod+F12	                exec $term -e nmtui
 bindsym $mod+w 			            exec --no-startup-id firefox
 bindsym $mod+r 			            exec $term -e ranger
+bindsym $mod+i                  exec --no-startup-id inkscape
 
 # bindsym $mod+space                  exec --no-startup-id i3-dmenu-desktop --dmenu='dmenu -b -i'
 # bindsym $mod+d 			            exec --no-startup-id rofi -show run

@@ -11,7 +11,7 @@ Plug 'kevinoid/vim-jsonc'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'lervag/vimtex'
 Plug 'sbdchd/neoformat'
-Plug 'honza/vim-snippets'
+"Plug 'honza/vim-snippets'
 Plug 'tpope/vim-surround'
 
 Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}

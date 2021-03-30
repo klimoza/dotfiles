@@ -12,9 +12,9 @@ set encoding=UTF-8
 " Replace tabs with spaces(4 spaces for each tab)
 set expandtab
 set smarttab
-set tabstop=4
-set softtabstop=4
-set shiftwidth=4
+set tabstop=2
+set softtabstop=2
+set shiftwidth=2
 
 " Line numbering
 set number
@@ -55,3 +55,5 @@ set smartindent
 
 " Buffers stuff
 set hidden
+
+set scrolloff=4
