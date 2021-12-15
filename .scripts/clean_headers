@@ -1,0 +1,8 @@
+#!/bin/bash
+
+for i in `find . -depth -type d`
+do
+pushd $i
+make clean
+popd
+done

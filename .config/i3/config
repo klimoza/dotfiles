@@ -5,7 +5,7 @@ exec_always --no-startup-id nm-applet
 exec_always --no-startup-id autotiling
 
 # #---Basic Definitions---# #
-# smart_gaps on
+smart_gaps on
 smart_borders on
 set $inner_gaps 15
 set $outer_gaps 15

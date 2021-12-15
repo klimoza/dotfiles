@@ -1,5 +1,5 @@
-colorscheme dracula
-let g:airline_theme='dracula'
+colorscheme gruvbox
+let g:airline_theme='gruvbox'
 
 " Terminal bg
 hi! Normal ctermbg=NONE guibg=NONE
